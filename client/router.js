@@ -8,12 +8,14 @@ Router.map(function(){
   this.route('home', {
     path: '/',
     controller: 'homeController',
-    action: 'index'
+    action: 'index',
+    layoutTemplate: 'layout'
   });
 
   this.route('dashboard', {
     path: '/dashboard',
     controller: 'dashboardController',
-    action: 'index'
+    action: 'index',
+    layoutTemplate: 'dashboardLayout'
   })
 });

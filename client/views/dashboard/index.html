@@ -1,3 +1,8 @@
 <template name="dashboard">
-  <h3>This is a dashboard</h3>
+  <a href="#"><strong><i class="glyphicon glyphicon-dashboard"></i> My Dashboard</strong></a>
+  <hr>
+
+  {{#each latestPosts}}
+    {{> post }}
+  {{/each}}
 </template>

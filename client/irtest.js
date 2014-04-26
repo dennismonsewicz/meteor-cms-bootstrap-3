@@ -4,3 +4,9 @@ Template.header.headerTitle = function() {
   else
     return 'Welcome';
 }
+
+Template._loginButtonsLoggedInDropdown.events({
+  'click #my-account': function(event, t){
+    Router.go('editProfile');
+  }
+});
