@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "iron-router": {},
+    "fast-render": {},
+    "jquery2": {},
+    "bootstrap-3": {},
+    "loading": {},
+    "accounts-ui-bootstrap-3": {}
+  }
+}
