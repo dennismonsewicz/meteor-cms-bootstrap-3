@@ -13,9 +13,23 @@ Router.map(function(){
   });
 
   this.route('dashboard', {
-    path: '/dashboard',
+    path: '/admin/dashboard',
     controller: 'dashboardController',
     action: 'index',
     layoutTemplate: 'dashboardLayout'
-  })
+  });
+
+  this.route('postEdit', {
+    path: '/admin/posts/:_id/edit',
+    controller: 'postsController',
+    action: 'edit',
+    layoutTemplate: 'dashboardLayout'
+  });
+
+  this.route('postRemove', {
+    path: '/admin/posts/:_id/remove',
+    controller: 'postsController',
+    action: 'edit',
+    layoutTemplate: 'dashboardLayout'
+  });
 });

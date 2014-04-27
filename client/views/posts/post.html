@@ -1,4 +1,27 @@
 <template name="post">
-  <h3>{{ title }} - <span class="time" title="{{createdAt}}">{{createdAt}}</span></h3>
-  {{{content}}}
+  <div class="row">
+    <div class="col-md-7">
+      <h3>{{ title }} - <span class="time" title="{{createdAt}}">{{createdAt}}</span></h3>
+      {{{content}}}
+    </div>
+
+    <div class="col-md-5">
+      {{> editActions }}
+    </div>
+  </div>
+</template>
+
+<template name="editActions">
+  <ul class="nav nav-pills">
+    <li>
+      <a href="{{ pathFor 'postEdit' }}">
+        <i class="glyphicon glyphicon-edit"></i>
+      </a>
+    </li>
+    <li>
+      <a href="{{ pathFor 'postRemove' }}">
+        <i class="glyphicon glyphicon-remove"></i>
+      </a>
+    </li>
+  </ul>
 </template>

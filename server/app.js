@@ -1,5 +1,10 @@
-Meteor.publish('posts', function(){
-  return Posts.find()
+Meteor.publish('posts', function(id){
+  var options = {};
+
+  if(id)
+    options._id = id;
+
+  return Posts.find(options)
 })
 
 if(!Posts.find().count()) {
