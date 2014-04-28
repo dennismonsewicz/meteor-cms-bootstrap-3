@@ -23,3 +23,11 @@ meteor
 Contributing
 -------------
 Contributors are very welcome. It's simple as cloning this repo, working on your bug or feature and putting in a Pull Request for approval
+
+TODO
+-------------
+* Add form validation
+* Add public routes for posts
+* Build in front-end template
+* Add user management
+* Add role management
