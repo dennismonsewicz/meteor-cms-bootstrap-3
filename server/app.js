@@ -4,14 +4,10 @@ Meteor.publish('posts', function(id){
   if(id)
     options._id = id;
 
-  return Posts.find(options)
-})
+  return Posts.find(options, {sort: {createdAt: -1}});
+});
 
-if(!Posts.find().count()) {
-  var postId = Posts.insert({
-    slug: 'hello-world',
-    title: 'Hello World',
-    content: '<p>This is a test. Hello World</p>',
-    createdAt: Date.create().toISOString()
-  });
-}
+Meteor.publish('singlePost', function(id){
+  check(id, String);
+  return Posts.find({_id: id});
+})

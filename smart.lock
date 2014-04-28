@@ -8,7 +8,12 @@
       "bootstrap-3": {},
       "loading": {},
       "accounts-ui-bootstrap-3": {},
-      "sugarjs": {}
+      "sugarjs": {},
+      "Faker.js": {
+        "git": "https://github.com/digilord/meteor-faker",
+        "branch": "master"
+      },
+      "npm": {}
     },
     "packages": {
       "iron-router": {
@@ -18,8 +23,8 @@
       },
       "fast-render": {
         "git": "https://github.com/arunoda/meteor-fast-render.git",
-        "tag": "v0.2.3",
-        "commit": "d56bd4a4d222bf176241cd6e756aa349cb24c260"
+        "tag": "v0.2.4",
+        "commit": "160a64bd61792f53a7c8848c5e979a953be13564"
       },
       "jquery2": {
         "git": "https://github.com/gadicc/meteor-jquery2.git",
@@ -45,6 +50,16 @@
         "git": "https://github.com/crapthings/meteor-sugarjs.git",
         "tag": "v1.4.0.1",
         "commit": "2841738b2c28d2d97c6cf3c41c4558f59f93db0e"
+      },
+      "Faker.js": {
+        "git": "https://github.com/digilord/meteor-faker",
+        "branch": "master",
+        "commit": "b20e6adbfa98c1ba44359aa4d342b927536020c0"
+      },
+      "npm": {
+        "git": "https://github.com/arunoda/meteor-npm.git",
+        "tag": "v0.2.6",
+        "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

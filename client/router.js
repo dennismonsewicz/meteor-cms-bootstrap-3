@@ -14,21 +14,30 @@ Router.map(function(){
 
   this.route('dashboard', {
     path: '/admin/dashboard',
-    controller: 'dashboardController',
+    controller: 'DashboardController',
     action: 'index',
+    layoutTemplate: 'dashboardLayout'
+  });
+
+  // Posts
+
+  this.route('postNew', {
+    path: '/admin/posts/new',
+    controller: 'PostsController',
+    action: 'new',
     layoutTemplate: 'dashboardLayout'
   });
 
   this.route('postEdit', {
     path: '/admin/posts/:_id/edit',
-    controller: 'postsController',
+    controller: 'PostsController',
     action: 'edit',
     layoutTemplate: 'dashboardLayout'
   });
 
   this.route('postRemove', {
     path: '/admin/posts/:_id/remove',
-    controller: 'postsController',
+    controller: 'PostsController',
     action: 'edit',
     layoutTemplate: 'dashboardLayout'
   });

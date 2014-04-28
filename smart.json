@@ -6,6 +6,10 @@
     "bootstrap-3": {},
     "loading": {},
     "accounts-ui-bootstrap-3": {},
-    "sugarjs": {}
+    "sugarjs": {},
+    "Faker.js": {
+      "git": "https://github.com/digilord/meteor-faker"
+    },
+    "npm": {}
   }
 }
