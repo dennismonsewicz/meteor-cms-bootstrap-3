@@ -7,7 +7,6 @@ standard-app-packages
 insecure
 iron-router
 fast-render
-jquery2
 bootstrap-3
 loading
 accounts-password
@@ -17,3 +16,5 @@ npm
 collection2
 autoform
 flash-messages-plus
+bootstrap3-wysihtml5
+jquery

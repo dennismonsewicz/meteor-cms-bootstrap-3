@@ -4,7 +4,6 @@
     "basePackages": {
       "iron-router": {},
       "fast-render": {},
-      "jquery2": {},
       "bootstrap-3": {},
       "loading": {},
       "accounts-ui-bootstrap-3": {},
@@ -16,7 +15,8 @@
       "npm": {},
       "collection2": {},
       "autoform": {},
-      "flash-messages-plus": {}
+      "flash-messages-plus": {},
+      "bootstrap3-wysihtml5": {}
     },
     "packages": {
       "iron-router": {
@@ -28,11 +28,6 @@
         "git": "https://github.com/arunoda/meteor-fast-render.git",
         "tag": "v0.2.4",
         "commit": "160a64bd61792f53a7c8848c5e979a953be13564"
-      },
-      "jquery2": {
-        "git": "https://github.com/gadicc/meteor-jquery2.git",
-        "tag": "v2.1.0-3",
-        "commit": "44b813b57d5f4ea1d1538acb48c13cc7acfb0f45"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
@@ -78,6 +73,11 @@
         "git": "https://github.com/tony-kerz/flash-messages.git",
         "tag": "v1.0.2",
         "commit": "e4c673c1aaeae6c7c042e100d5b423f34690ace9"
+      },
+      "bootstrap3-wysihtml5": {
+        "git": "https://github.com/andreioprisan/meteor-bootstrap3-wysihtml5.git",
+        "tag": "v0.3.3",
+        "commit": "251d564c3eb5b5b7a89a3e3e63f58633e0816332"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

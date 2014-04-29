@@ -2,7 +2,6 @@
   "packages": {
     "iron-router": {},
     "fast-render": {},
-    "jquery2": {},
     "bootstrap-3": {},
     "loading": {},
     "accounts-ui-bootstrap-3": {},
@@ -13,6 +12,7 @@
     "npm": {},
     "collection2": {},
     "autoform": {},
-    "flash-messages-plus": {}
+    "flash-messages-plus": {},
+    "bootstrap3-wysihtml5": {}
   }
 }
