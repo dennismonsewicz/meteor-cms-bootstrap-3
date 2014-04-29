@@ -6,7 +6,11 @@ Prerequisites
 
 Install Meteor
 
-`[sudo] curl https://install.meteor.com/ | sh`
+`curl https://install.meteor.com/ | sh`
+
+Install Node
+
+`brew install node`
 
 Use the meteorite package manager
 http://oortcloud.github.com/meteorite/
