@@ -3,6 +3,12 @@ var initEditor = function() {
   txtArea.data("wysihtml5").editor.setValue($('textarea').val());
 }
 
+Template.post.helpers({
+  authorEmail: function() {
+    return Meteor.users.findOne(this.user_id).emails[0].address;
+  }
+});
+
 Template.post.rendered = function(){
   return this.$('span.time').timeago();
 }
