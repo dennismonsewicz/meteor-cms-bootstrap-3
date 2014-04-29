@@ -10,6 +10,9 @@
     "Faker.js": {
       "git": "https://github.com/digilord/meteor-faker"
     },
-    "npm": {}
+    "npm": {},
+    "collection2": {},
+    "autoform": {},
+    "flash-messages-plus": {}
   }
 }

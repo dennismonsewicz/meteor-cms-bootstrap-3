@@ -1,7 +1,10 @@
 Router.configure({
   layoutTemplate: 'layout',
   loadingTemplate: 'loading',
-  notFoundTemplate: '404'
+  notFoundTemplate: '404',
+  onBeforeAction: function() {
+    FlashMessages.clear();
+  }
 });
 
 Router.map(function(){

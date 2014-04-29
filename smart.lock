@@ -13,7 +13,10 @@
         "git": "https://github.com/digilord/meteor-faker",
         "branch": "master"
       },
-      "npm": {}
+      "npm": {},
+      "collection2": {},
+      "autoform": {},
+      "flash-messages-plus": {}
     },
     "packages": {
       "iron-router": {
@@ -61,10 +64,35 @@
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.3.11",
+        "commit": "7e970671305657678e8508d8107d5e6c5e158559"
+      },
+      "autoform": {
+        "git": "https://github.com/aldeed/meteor-autoform.git",
+        "tag": "v0.8.0",
+        "commit": "54a820a4a561e7f49d6fbc05d24b75c3d8d2e9be"
+      },
+      "flash-messages-plus": {
+        "git": "https://github.com/tony-kerz/flash-messages.git",
+        "tag": "v1.0.2",
+        "commit": "e4c673c1aaeae6c7c042e100d5b423f34690ace9"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
         "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "simple-schema": {
+        "git": "https://github.com/aldeed/meteor-simple-schema.git",
+        "tag": "v0.4.0",
+        "commit": "2cc6aac0d35a4e00b065c1437d540b2aefba5241"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.6.0",
+        "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
       }
     }
   }

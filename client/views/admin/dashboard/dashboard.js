@@ -3,4 +3,4 @@ Template.editActions.events({
     e.preventDefault();
     Posts.remove(this._id);
   }
-})
+});
