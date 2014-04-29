@@ -4,6 +4,10 @@ meteor-cms-bootstrap-3
 Prerequisites
 -------------
 
+Install Meteor
+
+`[sudo] curl https://install.meteor.com/ | sh`
+
 Use the meteorite package manager
 http://oortcloud.github.com/meteorite/
 
