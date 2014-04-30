@@ -13,6 +13,7 @@
     "collection2": {},
     "autoform": {},
     "flash-messages-plus": {},
-    "bootstrap3-wysihtml5": {}
+    "bootstrap3-wysihtml5": {},
+    "managedUsers": {}
   }
 }

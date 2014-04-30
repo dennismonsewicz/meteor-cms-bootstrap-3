@@ -1,4 +1,4 @@
-PostsController = AdminController.extend({
+AdminPostsController = AdminBaseController.extend({
   edit: function() {
     return this.render(this.route.name);
   },

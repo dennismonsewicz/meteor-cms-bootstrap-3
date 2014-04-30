@@ -17,31 +17,42 @@ Router.map(function(){
 
   this.route('dashboard', {
     path: '/admin/dashboard',
-    controller: 'DashboardController',
-    action: 'index',
-    layoutTemplate: 'dashboardLayout'
+    controller: 'AdminDashboardController',
+    action: 'index'
+  });
+
+  // Users
+
+  this.route('users', {
+    path: '/admin/users',
+    controller: 'AdminUsersController',
+    action: 'index'
   });
 
   // Posts
 
   this.route('postNew', {
     path: '/admin/posts/new',
-    controller: 'PostsController',
-    action: 'new',
-    layoutTemplate: 'dashboardLayout'
+    controller: 'AdminPostsController',
+    action: 'new'
   });
 
   this.route('postEdit', {
     path: '/admin/posts/:_id/edit',
-    controller: 'PostsController',
-    action: 'edit',
-    layoutTemplate: 'dashboardLayout'
+    controller: 'AdminPostsController',
+    action: 'edit'
   });
 
   this.route('postRemove', {
     path: '/admin/posts/:_id/remove',
-    controller: 'PostsController',
-    action: 'edit',
-    layoutTemplate: 'dashboardLayout'
+    controller: 'AdminPostsController',
+    action: 'edit'
   });
+
+  this.route('postView', {
+    path: '/posts/:_id',
+    controller: 'PublicPostsController',
+    action: 'show',
+    layoutTemplate: 'layout'
+  })
 });

@@ -7,7 +7,12 @@
       {{#autoForm collection="Posts" id="editPostForm" type="update" validation="submit" doc=this }}
         {{> afQuickField name='slug' }}
         {{> afQuickField name='title' }}
-        {{> afQuickField name='content' rows='5' }}
+
+        <div class="form-group">
+          <label class="control-label">Content</label>
+          <textarea rows="5" name="content" class="form-control" id="postEditTextArea" required data-schema-key="content">{{content}}</textarea>
+          {{ wysiwygEditor }}
+        </div>
 
         <button type="submit" class="btn btn-primary">Update</button>
       {{/autoForm}}

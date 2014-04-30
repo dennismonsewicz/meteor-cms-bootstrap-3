@@ -11,6 +11,9 @@
         <ul class="nav nav-pills nav-stacked">
           <li><a href="{{ pathFor 'dashboard' }}"><i class="glyphicon glyphicon-flash"></i> Dashboard</a></li>
           <li><a href="{{ pathFor 'postNew' }}"><i class="glyphicon glyphicon-plus-sign"></i> New Post</a></li>
+          {{#if isAdmin}}
+            <li><a href="{{ pathFor 'users' }}"><i class="glyphicon glyphicon-user"></i> Users</a></li>
+          {{/if}}
         </ul>
       </div>
       <div class="col-md-9">

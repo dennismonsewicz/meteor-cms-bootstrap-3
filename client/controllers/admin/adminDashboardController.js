@@ -1,4 +1,4 @@
-DashboardController = AdminController.extend({
+AdminDashboardController = AdminBaseController.extend({
   index: function(){
     return this.render(this.route.name);
   },
