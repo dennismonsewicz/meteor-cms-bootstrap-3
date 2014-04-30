@@ -1,11 +1,11 @@
 <template name="post">
-  <div class="row">
-    <div class="col-md-7">
+  <div class="row post">
+    <div class="col-md-9">
       <h3>{{ title }} - <span class="time" title="{{createdAt}}">{{createdAt}}</span></h3>
       <p>Created By - {{ authorUsername }}</p>
     </div>
 
-    <div class="col-md-5">
+    <div class="col-md-3">
       {{> editActions }}
     </div>
   </div>
