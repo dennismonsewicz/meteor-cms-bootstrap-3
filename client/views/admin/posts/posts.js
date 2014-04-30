@@ -4,9 +4,9 @@ Template.post.helpers({
   }
 });
 
-Template.postEdit.helpers({
+Template.postForm.helpers({
   wysiwygEditor: function() {
-    var txtArea = $('textarea#postEditTextArea').wysihtml5();
+    var txtArea = $('textarea#postContent').wysihtml5();
     if(this.content)
       txtArea.data("wysihtml5").editor.setValue(this.content);
   }

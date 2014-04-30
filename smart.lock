@@ -6,7 +6,10 @@
       "fast-render": {},
       "bootstrap-3": {},
       "loading": {},
-      "accounts-ui-bootstrap-3": {},
+      "accounts-ui-bootstrap-3": {
+        "git": "https://github.com/dennismonsewicz/meteor-accounts-ui-bootstrap-3",
+        "branch": "master"
+      },
       "sugarjs": {},
       "Faker.js": {
         "git": "https://github.com/digilord/meteor-faker",
@@ -44,9 +47,9 @@
         "commit": "48840a828a614e25d0e19c124494b16f255a902e"
       },
       "accounts-ui-bootstrap-3": {
-        "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
-        "tag": "v0.3.0-1",
-        "commit": "93ffa5d0e325dc7026de89f6d90c178fa04bdd3a"
+        "git": "https://github.com/dennismonsewicz/meteor-accounts-ui-bootstrap-3",
+        "branch": "master",
+        "commit": "fa13dea76a3cb6add160b498d1cf5dec5688e80f"
       },
       "sugarjs": {
         "git": "https://github.com/crapthings/meteor-sugarjs.git",

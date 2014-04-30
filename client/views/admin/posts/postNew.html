@@ -5,12 +5,7 @@
     </div>
 
     <div class="panel-body">
-      {{#autoForm collection="Posts" id="editPostForm" type="insert" validation="submit" }}
-        {{> afQuickField name='slug' }}
-        {{> afQuickField name='title' }}
-        {{> afQuickField name='content' rows='5' }}
-        <button type="submit" class="btn btn-primary">Submit</button>
-      {{/autoForm}}
+      {{> postForm }}
     </div>
   </div>
 </template>
