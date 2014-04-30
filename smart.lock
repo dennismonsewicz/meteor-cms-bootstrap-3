@@ -86,7 +86,7 @@
       "managedUsers": {
         "git": "https://github.com/dennismonsewicz/managedUsers",
         "branch": "master",
-        "commit": "f3aa55256347c9fd31f5068fba386b18c4b783c2"
+        "commit": "08b9f987f7b9c539f9e3f276208a1001af7b87dd"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
