@@ -17,7 +17,10 @@
       "autoform": {},
       "flash-messages-plus": {},
       "bootstrap3-wysihtml5": {},
-      "managedUsers": {}
+      "managedUsers": {
+        "git": "https://github.com/dennismonsewicz/managedUsers",
+        "branch": "master"
+      }
     },
     "packages": {
       "iron-router": {
@@ -81,9 +84,9 @@
         "commit": "251d564c3eb5b5b7a89a3e3e63f58633e0816332"
       },
       "managedUsers": {
-        "git": "https://github.com/jzgoda/managedUsers.git",
-        "tag": "v0.2.0",
-        "commit": "d8d3ddd1753bf95f297f25c941305208bc6f96fc"
+        "git": "https://github.com/dennismonsewicz/managedUsers",
+        "branch": "master",
+        "commit": "f3aa55256347c9fd31f5068fba386b18c4b783c2"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
