@@ -10,4 +10,8 @@ Meteor.publish('posts', function(id){
 Meteor.publish('singlePost', function(id){
   check(id, String);
   return Posts.find({_id: id});
+});
+
+Meteor.publish('myPosts', function(){
+  return Posts.find({user_id: this.userId});
 })

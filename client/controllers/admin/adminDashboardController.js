@@ -3,7 +3,10 @@ AdminDashboardController = AdminBaseController.extend({
     return this.render(this.route.name);
   },
   waitOn: function(){
-    return Meteor.subscribe('posts')
+    if(ManagedUsers.hasPermission('admin'))
+      return Meteor.subscribe('posts')
+    else
+      return Meteor.subscribe('myPosts')
   },
   data: function(){
     return {

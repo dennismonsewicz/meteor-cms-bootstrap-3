@@ -4,9 +4,6 @@
     "fast-render": {},
     "bootstrap-3": {},
     "loading": {},
-    "accounts-ui-bootstrap-3": {
-        "git": "https://github.com/dennismonsewicz/meteor-accounts-ui-bootstrap-3"
-    },
     "sugarjs": {},
     "Faker.js": {
       "git": "https://github.com/digilord/meteor-faker"
@@ -16,8 +13,7 @@
     "autoform": {},
     "flash-messages-plus": {},
     "bootstrap3-wysihtml5": {},
-    "managedUsers": {
-        "git": "https://github.com/dennismonsewicz/managedUsers"
-    }
+    "managedUsers": {},
+    "collection-helpers": {}
   }
 }

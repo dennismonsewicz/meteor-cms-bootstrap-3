@@ -6,10 +6,6 @@
       "fast-render": {},
       "bootstrap-3": {},
       "loading": {},
-      "accounts-ui-bootstrap-3": {
-        "git": "https://github.com/dennismonsewicz/meteor-accounts-ui-bootstrap-3",
-        "branch": "master"
-      },
       "sugarjs": {},
       "Faker.js": {
         "git": "https://github.com/digilord/meteor-faker",
@@ -20,10 +16,8 @@
       "autoform": {},
       "flash-messages-plus": {},
       "bootstrap3-wysihtml5": {},
-      "managedUsers": {
-        "git": "https://github.com/dennismonsewicz/managedUsers",
-        "branch": "master"
-      }
+      "managedUsers": {},
+      "collection-helpers": {}
     },
     "packages": {
       "iron-router": {
@@ -45,11 +39,6 @@
         "git": "https://github.com/bitIO/meteor-loading.git",
         "tag": "v0.0.1",
         "commit": "48840a828a614e25d0e19c124494b16f255a902e"
-      },
-      "accounts-ui-bootstrap-3": {
-        "git": "https://github.com/dennismonsewicz/meteor-accounts-ui-bootstrap-3",
-        "branch": "master",
-        "commit": "fa13dea76a3cb6add160b498d1cf5dec5688e80f"
       },
       "sugarjs": {
         "git": "https://github.com/crapthings/meteor-sugarjs.git",
@@ -87,9 +76,14 @@
         "commit": "251d564c3eb5b5b7a89a3e3e63f58633e0816332"
       },
       "managedUsers": {
-        "git": "https://github.com/dennismonsewicz/managedUsers",
-        "branch": "master",
-        "commit": "08b9f987f7b9c539f9e3f276208a1001af7b87dd"
+        "git": "https://github.com/jzgoda/managedUsers.git",
+        "tag": "v0.2.4",
+        "commit": "60891fdfd6a56d8dc698a70a1b425244558c2997"
+      },
+      "collection-helpers": {
+        "git": "https://github.com/dburles/meteor-collection-helpers.git",
+        "tag": "v0.2.6",
+        "commit": "f04819e9a148fb8992c7a345503167dfb1b9ad3e"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
@@ -105,6 +99,11 @@
         "git": "https://github.com/acreeger/meteor-moment.git",
         "tag": "v2.6.0",
         "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
+      },
+      "accounts-ui-bs3-and-blaze": {
+        "git": "https://github.com/jzgoda/meteor-accounts-ui-bootstrap-3-and-blaze",
+        "tag": "v0.4.0",
+        "commit": "a688eeabedb4fb471b108cd3e0902a8d6918a007"
       }
     }
   }

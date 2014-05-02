@@ -1,15 +1,12 @@
-homeController = RouteController.extend({
-  index: function(){
-    if(Meteor.loggingIn()){
+HomeController = RouteController.extend({
+  onBeforeAction: function(){
+    if(Meteor.loggingIn())
       return this.render('loading');
-    }
 
-    if(Meteor.user()) {
-      return this.redirect('dashboard');
-    }
-
-    return this.render(this.route.name);
-  }
+    if(!Meteor.user())
+      Router.go('home');
+  },
+  layoutTemplate: 'layout'
 });
 
 Template._loginButtons.events({

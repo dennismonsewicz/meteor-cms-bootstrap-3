@@ -51,8 +51,14 @@ Posts = new Meteor.Collection('posts', {
   }
 });
 
+Posts.helpers({
+  author: function() {
+    return Meteor.users.findOne(this.user_id).username
+  }
+})
+
 Posts.allow({
   remove: function(userId, post){
-    return true
+    return post.user_id === userId || ManagedUsers.hasPermission('admin')
   }
 })

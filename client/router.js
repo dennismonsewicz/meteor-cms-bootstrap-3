@@ -31,6 +31,8 @@ Router.map(function(){
 
   // Posts
 
+  // Admin
+
   this.route('postNew', {
     path: '/admin/posts/new',
     controller: 'AdminPostsController',
@@ -49,10 +51,11 @@ Router.map(function(){
     action: 'edit'
   });
 
-  this.route('postView', {
+  // Public
+
+  this.route('postShow', {
     path: '/posts/:_id',
     controller: 'PublicPostsController',
-    action: 'show',
-    layoutTemplate: 'layout'
+    action: 'show'
   })
 });

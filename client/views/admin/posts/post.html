@@ -2,7 +2,7 @@
   <div class="row post">
     <div class="col-md-9">
       <h3>{{ title }} - <span class="time" title="{{createdAt}}">{{createdAt}}</span></h3>
-      <p>Created By - {{ authorUsername }}</p>
+      <p>Created By - {{ author }}</p>
     </div>
 
     <div class="col-md-3">
@@ -21,6 +21,11 @@
     <li>
       <a href="{{ pathFor 'postRemove' }}" data-id="{{ _id }}" class="remove-post">
         <i class="glyphicon glyphicon-remove"></i>
+      </a>
+    </li>
+    <li>
+      <a href="{{ pathFor 'postShow' }}" data-id="{{ _id }}" target="_blank">
+        <i class="glyphicon glyphicon-eye-open"></i>
       </a>
     </li>
   </ul>
