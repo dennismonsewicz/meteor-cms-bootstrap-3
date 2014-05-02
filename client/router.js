@@ -10,7 +10,7 @@ Router.configure({
 Router.map(function(){
   this.route('home', {
     path: '/',
-    controller: 'homeController',
+    controller: 'HomeController',
     action: 'index',
     layoutTemplate: 'layout'
   });
