@@ -1,4 +1,4 @@
-PublicPostsController = HomeController.extend({
+PublicPostsController = BaseController.extend({
   show: function() {
     return this.render(this.route.name);
   },

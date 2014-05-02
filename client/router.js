@@ -8,7 +8,7 @@ Router.configure({
 });
 
 Router.map(function(){
-  this.route('home', {
+  this.route('index', {
     path: '/',
     controller: 'HomeController',
     action: 'index',

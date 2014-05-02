@@ -1,11 +1,5 @@
-HomeController = RouteController.extend({
-  layoutTemplate: 'layout'
-});
-
-Template._loginButtons.events({
-  'click #login-buttons-logout': function(ev, t){
-    Meteor.logout(function() {
-      Router.go('home');
-    });
+HomeController = BaseController.extend({
+  index: function(){
+    return this.render(this.route.name);
   }
-});
+})
