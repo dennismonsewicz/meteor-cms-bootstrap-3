@@ -1,14 +1,10 @@
 <template name="postForm">
-  {{#autoForm collection="Posts" id="{{formId}}" type="{{action}}" validation="submit" doc=this }}
+  {{#autoForm collection="Posts" id=formId type=action validation="submit" doc=.. }}
     {{> afQuickField name='slug' }}
     {{> afQuickField name='title' }}
 
-    <div class="form-group">
-      <label class="control-label">Content</label>
-      <textarea rows="5" name="content" class="form-control" id="postContent" required data-schema-key="content">{{content}}</textarea>
-      {{ wysiwygEditor }}
-    </div>
+    {{{editor ../../content}}}
 
-    <button type="submit" class="btn btn-primary">Update</button>
+    <button type="submit" class="btn btn-primary">{{submitBtn}}</button>
   {{/autoForm}}
 </template>

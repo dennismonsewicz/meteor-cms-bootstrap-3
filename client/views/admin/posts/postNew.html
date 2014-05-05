@@ -6,18 +6,7 @@
 
     <div class="panel-body">
 
-      {{#autoForm collection="Posts" id="insertPostForm" type="insert" validation="submit" }}
-        {{> afQuickField name='slug' }}
-        {{> afQuickField name='title' }}
-
-        <div class="form-group">
-          <label class="control-label">Content</label>
-          <textarea rows="5" name="content" class="form-control" id="postContent" required data-schema-key="content">{{content}}</textarea>
-          {{ wysiwygEditor }}
-        </div>
-
-        <button type="submit" class="btn btn-primary">Submit</button>
-      {{/autoForm}}
+      {{> postForm formId="insertPostForm" action="insert" submitBtn="Submit" }}
 
     </div>
   </div>

@@ -11,9 +11,10 @@ Router.map(function(){
   this.route('index', {
     path: '/',
     controller: 'HomeController',
-    action: 'index',
-    layoutTemplate: 'layout'
+    action: 'index'
   });
+
+  // Dashboard
 
   this.route('dashboard', {
     path: '/admin/dashboard',

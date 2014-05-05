@@ -102,8 +102,8 @@
       },
       "accounts-ui-bs3-and-blaze": {
         "git": "https://github.com/jzgoda/meteor-accounts-ui-bootstrap-3-and-blaze",
-        "tag": "v0.4.0",
-        "commit": "a688eeabedb4fb471b108cd3e0902a8d6918a007"
+        "tag": "v0.4.2",
+        "commit": "311530aecf2e9af74d990140c7f6d072077b679c"
       }
     }
   }

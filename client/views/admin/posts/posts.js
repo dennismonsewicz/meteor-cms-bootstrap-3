@@ -1,26 +1,17 @@
-var setupEditor = function(doc) {
-  var txtArea = $('textarea#postContent').wysihtml5();
-
-  if(doc.content)
-    txtArea.data("wysihtml5").editor.setValue(this.content);
-}
-
-Template.postNew.helpers({
-  wysiwygEditor: function() {
-    setupEditor(this);
-  }
-});
-
-Template.postEdit.helpers({
-  wysiwygEditor: function() {
-    setupEditor(this);
-  }
-});
-
 Template.post.rendered = function(){
   return this.$('span.time').timeago();
 }
 
-Template.postNew.rendered = function(){
-  $('textarea').wysihtml5();
-}
+UI.registerHelper('editor', function(content){
+  var html = ' <div class="form-group">';
+  html += '<label class="control-label">Content</label>';
+  html += '<textarea rows="5" name="content" class="form-control" id="postContent" required data-schema-key="content">' + content + '</textarea>';
+  html += '</div>';
+
+  if(content) {
+    var editor = $('#postContent').wysihtml5();
+    editor.data("wysihtml5").editor.setValue(content);
+  }
+
+  return Spacebars.SafeString(html);
+});
