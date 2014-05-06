@@ -5,7 +5,7 @@ BaseController = RouteController.extend({
 Template._loginButtons.events({
   'click #login-buttons-logout': function(ev, t){
     Meteor.logout(function() {
-      Router.go('home');
+      Router.go('index');
     });
   }
 });
