@@ -4,7 +4,7 @@ AdminBaseController = RouteController.extend({
       return this.render('loading');
 
     if(!Meteor.user())
-      Router.go('index');
+      return Router.go('index');
   },
   layoutTemplate: 'dashboardLayout'
 });

@@ -6,7 +6,14 @@
 
     <div class="panel-body">
 
-      {{> postForm formId="insertPostForm" action="insert" submitBtn="Submit" }}
+      {{#autoForm id="insertPostForm" collection="Posts" type="insert" validation="submit" }}
+        {{> afQuickField name='slug' }}
+        {{> afQuickField name='title' }}
+        {{> afQuickField name='html_content' class="form-control contentHTML" rows="5" }}
+
+        <button type="submit" class="btn btn-primary">Update</button>
+      {{/autoForm}}
+
 
     </div>
   </div>

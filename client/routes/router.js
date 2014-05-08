@@ -43,7 +43,10 @@ Router.map(function(){
   this.route('postEdit', {
     path: '/admin/posts/:_id/edit',
     controller: 'AdminPostsController',
-    action: 'edit'
+    action: 'edit',
+    onBeforeAction: function(){
+      Session.set('currentPage', this.params._id);
+    }
   });
 
   this.route('postRemove', {
@@ -55,7 +58,7 @@ Router.map(function(){
   // Public
 
   this.route('postShow', {
-    path: '/posts/:_id',
+    path: '/posts/:slug',
     controller: 'PublicPostsController',
     action: 'show'
   })

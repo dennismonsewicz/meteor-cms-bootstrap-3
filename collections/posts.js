@@ -10,7 +10,7 @@ Posts = new Meteor.Collection('posts', {
       label: "Title",
       max: 100
     },
-    content: {
+    html_content: {
       type: String,
       label: "Content",
       min: 0

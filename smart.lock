@@ -15,9 +15,9 @@
       "collection2": {},
       "autoform": {},
       "flash-messages-plus": {},
-      "bootstrap3-wysihtml5": {},
       "managedUsers": {},
-      "collection-helpers": {}
+      "collection-helpers": {},
+      "bootstrap3-wysihtml5": {}
     },
     "packages": {
       "iron-router": {
@@ -27,8 +27,8 @@
       },
       "fast-render": {
         "git": "https://github.com/arunoda/meteor-fast-render.git",
-        "tag": "v0.2.4",
-        "commit": "160a64bd61792f53a7c8848c5e979a953be13564"
+        "tag": "v0.2.5",
+        "commit": "93e2fb334e55fbe9b5ebb2a2e65964018658f43e"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
@@ -70,11 +70,6 @@
         "tag": "v1.0.2",
         "commit": "e4c673c1aaeae6c7c042e100d5b423f34690ace9"
       },
-      "bootstrap3-wysihtml5": {
-        "git": "https://github.com/andreioprisan/meteor-bootstrap3-wysihtml5.git",
-        "tag": "v0.3.3",
-        "commit": "251d564c3eb5b5b7a89a3e3e63f58633e0816332"
-      },
       "managedUsers": {
         "git": "https://github.com/jzgoda/managedUsers.git",
         "tag": "v0.2.4",
@@ -84,6 +79,11 @@
         "git": "https://github.com/dburles/meteor-collection-helpers.git",
         "tag": "v0.2.6",
         "commit": "f04819e9a148fb8992c7a345503167dfb1b9ad3e"
+      },
+      "bootstrap3-wysihtml5": {
+        "git": "https://github.com/andreioprisan/meteor-bootstrap3-wysihtml5.git",
+        "tag": "v0.3.3",
+        "commit": "251d564c3eb5b5b7a89a3e3e63f58633e0816332"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
