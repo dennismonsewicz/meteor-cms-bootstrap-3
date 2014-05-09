@@ -20,3 +20,7 @@ Meteor.startup(function(){
     passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
   })
 });
+
+if(!this.userId) {
+  Meteor.subscribe('users');
+}

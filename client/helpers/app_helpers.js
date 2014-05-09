@@ -4,3 +4,7 @@ UI.registerHelper('toggleActive', function(route){
     return (pathName === route) ? 'active' : '';
   }
 })
+
+UI.registerHelper('tagLine', function(){
+  return 'FATHER, HUSBAND, WEB DEVELOPER';
+})

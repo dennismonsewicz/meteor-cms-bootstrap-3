@@ -53,7 +53,11 @@ Posts = new Meteor.Collection('posts', {
 
 Posts.helpers({
   author: function() {
-    return Meteor.users.findOne(this.user_id).username
+    var user = Meteor.users.findOne({_id: this.user_id});
+    if(_.has(user, 'username'))
+      return user.username;
+    else
+      return "ADMIN";
   }
 })
 

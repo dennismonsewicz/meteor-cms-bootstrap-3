@@ -20,4 +20,10 @@ Meteor.publish('singlePostById', function(id){
 
 Meteor.publish('myPosts', function(){
   return Posts.find({user_id: this.userId});
-})
+});
+
+Meteor.publish('users', function(){
+  return Meteor.users.find({},
+    {fields: {username: 1}
+  });
+});

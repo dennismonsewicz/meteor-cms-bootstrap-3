@@ -1,9 +1,27 @@
 <template name="postShow">
-  <div class="row post">
-    <div class="col-md-12">
-      <h3>{{ title }} - <span class="time">{{ ago createdAt }}</span></h3>
-      <p>Created By - {{ author }}</p>
-      {{{html_content}}}
-    </div>
-  </div>
+	<div id="workwrap">
+    <div class="container">
+			<div class="row">
+				<div class="col-lg-12 centered">
+          <h4><span class="time">{{ ago createdAt }}</span></h4>
+          <h1>{{ title }}</h1>
+          <h4>Created By - {{ author }}</h4>
+				</div>
+			</div><!--/row -->
+    </div> <!-- /container -->
+	</div><!--/workwrap -->
+
+  <section id="works"></section>
+  <div class="container">
+  	<div class="row mt mb">
+  		<div class="col-lg-8 col-lg-offset-2">
+  			{{{html_content}}}
+  		</div>
+
+  	</div><!--/row -->
+  </div><!--/container -->
+
+  {{> social }}
+
+  {{> posts }}
 </template>
