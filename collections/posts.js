@@ -64,5 +64,16 @@ Posts.helpers({
 Posts.allow({
   remove: function(userId, post){
     return post.user_id === userId || ManagedUsers.hasPermission('admin')
+  },
+  insert: function(userId, post){
+    return false
+  },
+  update: function(userId, post, fields, modifier) {
+    if(ManagedUsers.hasPermission('admin'))
+      return true;
+    else if(userId !== post.user_id)
+      return false;
+    else
+      return false;
   }
 })
