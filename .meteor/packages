@@ -7,7 +7,6 @@ standard-app-packages
 insecure
 iron-router
 fast-render
-bootstrap-3
 loading
 accounts-password
 sugarjs
@@ -15,9 +14,13 @@ npm
 collection2
 autoform
 flash-messages-plus
-jquery
 email
 managedUsers
 collection-helpers
 bootstrap3-wysihtml5
 moment
+trunk8
+bootstrap-3
+jquery
+bootstrap3-confirmation
+accounts-entry

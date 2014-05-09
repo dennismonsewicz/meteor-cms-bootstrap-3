@@ -4,20 +4,24 @@
     "basePackages": {
       "iron-router": {},
       "fast-render": {},
-      "bootstrap-3": {},
       "loading": {},
       "sugarjs": {},
-      "Faker.js": {
-        "git": "https://github.com/digilord/meteor-faker",
-        "branch": "master"
-      },
       "npm": {},
       "collection2": {},
       "autoform": {},
       "flash-messages-plus": {},
       "managedUsers": {},
       "collection-helpers": {},
-      "bootstrap3-wysihtml5": {}
+      "bootstrap3-wysihtml5": {},
+      "trunk8": {},
+      "bootstrap3-confirmation": {
+        "git": "https://github.com/dennismonsewicz/meteor-bootstrap-confirmation",
+        "branch": "master"
+      },
+      "accounts-entry": {
+        "git": "https://github.com/dennismonsewicz/accounts-entry",
+        "branch": "master"
+      }
     },
     "packages": {
       "iron-router": {
@@ -30,11 +34,6 @@
         "tag": "v0.2.5",
         "commit": "93e2fb334e55fbe9b5ebb2a2e65964018658f43e"
       },
-      "bootstrap-3": {
-        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v3.1.1-1",
-        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
-      },
       "loading": {
         "git": "https://github.com/bitIO/meteor-loading.git",
         "tag": "v0.0.1",
@@ -44,11 +43,6 @@
         "git": "https://github.com/crapthings/meteor-sugarjs.git",
         "tag": "v1.4.0.1",
         "commit": "2841738b2c28d2d97c6cf3c41c4558f59f93db0e"
-      },
-      "Faker.js": {
-        "git": "https://github.com/digilord/meteor-faker",
-        "branch": "master",
-        "commit": "b20e6adbfa98c1ba44359aa4d342b927536020c0"
       },
       "npm": {
         "git": "https://github.com/arunoda/meteor-npm.git",
@@ -62,8 +56,8 @@
       },
       "autoform": {
         "git": "https://github.com/aldeed/meteor-autoform.git",
-        "tag": "v0.8.0",
-        "commit": "54a820a4a561e7f49d6fbc05d24b75c3d8d2e9be"
+        "tag": "v0.8.1",
+        "commit": "385051a5e4bbea3b2a54965800f5f530987ef432"
       },
       "flash-messages-plus": {
         "git": "https://github.com/tony-kerz/flash-messages.git",
@@ -85,6 +79,21 @@
         "tag": "v0.3.3",
         "commit": "251d564c3eb5b5b7a89a3e3e63f58633e0816332"
       },
+      "trunk8": {
+        "git": "https://github.com/ericraio/meteor-trunk8.git",
+        "tag": "v0.0.1",
+        "commit": "f2308ee06187f6ad53b63999c478051800aa5324"
+      },
+      "bootstrap3-confirmation": {
+        "git": "https://github.com/dennismonsewicz/meteor-bootstrap-confirmation",
+        "branch": "master",
+        "commit": "ab09bffa524917827f7b5daf34241d2e08579a92"
+      },
+      "accounts-entry": {
+        "git": "https://github.com/dennismonsewicz/accounts-entry",
+        "branch": "master",
+        "commit": "43af38fc2c2cb7d32483910ad2cbbb7aa4bf02e6"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
@@ -100,10 +109,20 @@
         "tag": "v2.6.0",
         "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
       },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      },
       "accounts-ui-bs3-and-blaze": {
         "git": "https://github.com/jzgoda/meteor-accounts-ui-bootstrap-3-and-blaze",
         "tag": "v0.4.2",
         "commit": "311530aecf2e9af74d990140c7f6d072077b679c"
+      },
+      "accounts-t9n": {
+        "git": "https://github.com/softwarerero/meteor-accounts-t9n.git",
+        "tag": "v0.0.5",
+        "commit": "ad9539a8818049d5d9fa050d8b2a1f62706483b1"
       }
     }
   }

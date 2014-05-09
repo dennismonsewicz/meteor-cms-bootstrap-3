@@ -1,10 +1,3 @@
-Template.header.headerTitle = function() {
-  if(Meteor.user())
-    return 'Control Panel';
-  else
-    return 'Welcome';
-}
-
 Template._loginButtonsLoggedInDropdown.events({
   'click #my-account': function(event, t){
     Router.go('editProfile');
@@ -12,4 +5,12 @@ Template._loginButtonsLoggedInDropdown.events({
   'click #dashboard': function(event, t){
     Router.go('dashboard');
   }
+});
+
+Meteor.startup(function(){
+  AccountsEntry.config({
+    homeRoute: '/',
+    dashboardRoute: '/admin/dashboard',
+    passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
+  })
 });

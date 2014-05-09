@@ -2,18 +2,21 @@
   "packages": {
     "iron-router": {},
     "fast-render": {},
-    "bootstrap-3": {},
     "loading": {},
     "sugarjs": {},
-    "Faker.js": {
-      "git": "https://github.com/digilord/meteor-faker"
-    },
     "npm": {},
     "collection2": {},
     "autoform": {},
     "flash-messages-plus": {},
     "managedUsers": {},
     "collection-helpers": {},
-    "bootstrap3-wysihtml5": {}
+    "bootstrap3-wysihtml5": {},
+    "trunk8": {},
+    "bootstrap3-confirmation": {
+      "git": "https://github.com/dennismonsewicz/meteor-bootstrap-confirmation"
+    },
+    "accounts-entry": {
+      "git": "https://github.com/dennismonsewicz/accounts-entry"
+    }
   }
 }

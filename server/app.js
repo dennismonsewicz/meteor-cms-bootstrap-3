@@ -12,6 +12,12 @@ Meteor.publish('singlePost', function(slug){
   return Posts.find({slug: slug});
 });
 
+Meteor.publish('singlePostById', function(id){
+  check(id, String);
+  return Posts.find({_id: id});
+});
+
+
 Meteor.publish('myPosts', function(){
   return Posts.find({user_id: this.userId});
 })

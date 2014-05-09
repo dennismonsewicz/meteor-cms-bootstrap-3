@@ -49,12 +49,6 @@ Router.map(function(){
     }
   });
 
-  this.route('postRemove', {
-    path: '/admin/posts/:_id/remove',
-    controller: 'AdminPostsController',
-    action: 'edit'
-  });
-
   // Public
 
   this.route('postShow', {

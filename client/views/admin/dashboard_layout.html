@@ -1,5 +1,5 @@
 <template name="dashboardLayout">
-  {{> header }}
+  {{> loggedInHeader }}
 
 
   <div class="container">
@@ -7,7 +7,7 @@
       <div class="col-md-3">
         <p><strong><i class="glyphicon glyphicon-briefcase"></i> Toolbox</strong></p>
         <hr>
-      
+
         <ul class="nav nav-pills nav-stacked">
           <li><a href="{{ pathFor 'dashboard' }}"><i class="glyphicon glyphicon-flash"></i> Dashboard</a></li>
           <li><a href="{{ pathFor 'postNew' }}"><i class="glyphicon glyphicon-plus-sign"></i> New Post</a></li>

@@ -6,9 +6,9 @@ AdminPostsController = AdminBaseController.extend({
     return this.render(this.route.name);
   },
   waitOn: function(){
-    return Meteor.subscribe('singlePost', this.params._id)
+    return Meteor.subscribe('singlePostById', Session.get('currentPage'));
   },
   data: function(){
-    return Posts.findOne(this.params._id);
+    return Posts.findOne({_id: Session.get('currentPage')});
   }
 });
