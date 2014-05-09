@@ -21,6 +21,4 @@ Meteor.startup(function(){
   })
 });
 
-if(!this.userId) {
-  Meteor.subscribe('users');
-}
+Meteor.subscribe('users');
