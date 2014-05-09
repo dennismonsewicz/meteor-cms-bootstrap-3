@@ -7,13 +7,33 @@ Router.configure({
   }
 });
 
+// Public Routes
+
 Router.map(function(){
+
   this.route('index', {
     path: '/',
     controller: 'HomeController',
     action: 'index'
   });
 
+  this.route('about', {
+    path: '/about',
+    controller: 'HomeController',
+    action: 'about'
+  });
+
+  this.route('postShow', {
+    path: '/posts/:slug',
+    controller: 'PublicPostsController',
+    action: 'show'
+  });
+
+});
+
+// Admin Routes
+
+Router.map(function(){
   // Dashboard
 
   this.route('dashboard', {
@@ -48,12 +68,4 @@ Router.map(function(){
       Session.set('currentPage', this.params._id);
     }
   });
-
-  // Public
-
-  this.route('postShow', {
-    path: '/posts/:slug',
-    controller: 'PublicPostsController',
-    action: 'show'
-  })
-});
+})

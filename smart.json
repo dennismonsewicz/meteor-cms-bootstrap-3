@@ -17,6 +17,8 @@
     },
     "accounts-entry": {
       "git": "https://github.com/dennismonsewicz/accounts-entry"
-    }
+    },
+    "font-awesome": {},
+    "jquery-scrollintoview": {}
   }
 }

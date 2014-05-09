@@ -21,7 +21,9 @@
       "accounts-entry": {
         "git": "https://github.com/dennismonsewicz/accounts-entry",
         "branch": "master"
-      }
+      },
+      "font-awesome": {},
+      "jquery-scrollintoview": {}
     },
     "packages": {
       "iron-router": {
@@ -93,6 +95,16 @@
         "git": "https://github.com/dennismonsewicz/accounts-entry",
         "branch": "master",
         "commit": "43af38fc2c2cb7d32483910ad2cbbb7aa4bf02e6"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.0.3",
+        "commit": "61e9361384347547ae144f8228faa4deffda23db"
+      },
+      "jquery-scrollintoview": {
+        "git": "https://github.com/WeekdayFiller/meteor-jquery.scrollintoview",
+        "tag": "v1.8.0",
+        "commit": "2adb657b6f6c09728d726b26d6b3d1de85b41f9a"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

@@ -1,0 +1,14 @@
+<template name="posts">
+  <div class="container" id="posts">
+    <div class="row mt mb">
+      <h1 class="centered">Posts</h1>
+
+      {{#each posts }}
+        <div class="col-lg-4 col-md-4 col-sm-4 post">
+          {{> postSnippet }}
+        </div>
+      {{/each}}
+
+    </div><!--/row -->
+  </div><!--/container -->
+</template>

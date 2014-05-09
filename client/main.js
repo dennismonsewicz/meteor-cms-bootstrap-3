@@ -7,6 +7,12 @@ Template._loginButtonsLoggedInDropdown.events({
   }
 });
 
+Template.header.events({
+  'click #posts-link': function(event, t){
+    $('#posts').scrollintoview();
+  }
+})
+
 Meteor.startup(function(){
   AccountsEntry.config({
     homeRoute: '/',

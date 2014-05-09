@@ -5,22 +5,12 @@
 				<div class="col-lg-6 col-lg-offset-3">
 					<h4>HOWDY FOLKS, MY NAME IS</h4>
 					<h1>DENNIS MONSEWICZ</h1>
-					<h4>WEB DEVELOPER</h4>
+					<h4>FATHER, HUSBAND & WEB DEVELOPER</h4>
 				</div>
 			</div><!--/row -->
     </div> <!-- /container -->
 	</div><!--/headerwrap -->
 
-	<div class="container">
-		<div class="row mt mb">
-			<h1 class="centered">Posts</h1>
+	{{> posts }}
 
-      {{#each posts }}
-        <div class="col-lg-4 col-md-4 col-sm-4 post">
-          {{> homePost }}
-        </div>
-      {{/each}}
-
-		</div><!--/row -->
-	</div><!--/container -->
 </template>
