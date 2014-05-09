@@ -37,5 +37,3 @@ TODO
 * Add form validation
 * Add public routes for posts
 * Build in front-end template
-* Add user management
-* Add role management
