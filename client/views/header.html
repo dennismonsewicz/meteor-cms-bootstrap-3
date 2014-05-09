@@ -12,8 +12,8 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="{{pathFor 'index'}}">Home</a></li>
-          <li><a href="{{pathFor 'about'}}">About</a></li>
+          <li class="{{ toggleActive 'index' }}"><a href="{{pathFor 'index'}}">Home</a></li>
+          <li class="{{ toggleActive 'about' }}"><a href="{{pathFor 'about'}}">About</a></li>
           <li><a href="#posts" id="posts-link">Works</a></li>
         </ul>
       </div><!--/.nav-collapse -->
