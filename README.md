@@ -19,7 +19,7 @@ http://oortcloud.github.com/meteorite/
 
 Setup
 -------------
-```
+```bash
 cd ~/path/to/projects
 mkdir meteor-cms-bootstrap-3
 git clone git@github.com:dennismonsewicz/meteor-cms-bootstrap-3.git meteor-cms-bootstrap-3
@@ -27,6 +27,23 @@ cd meteor-cms-bootstrap-3
 mrt install
 meteor
 ```
+
+First-Time Login
+-------------
+When you fork this repo and start up the app for the first time (after installing all dependencies)
+the server will create an admin level login.
+
+```
+Username: admin
+Password: abc123
+```
+
+Front-end Template
+-------------
+Currently, the front-end template that is in place is http://www.blacktie.co/demo/instant/index.html
+
+Feel free to rip this out and add your own! In the long-term 10,000 foot view, there is no plan to implement Templating, but I could be persuaded :)
+
 
 Contributing
 -------------
