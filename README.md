@@ -1,6 +1,10 @@
 meteor-cms-bootstrap-3
 =====================================
 
+Preview
+-------------
+[Online Preview](http://limitless-inlet-6123.herokuapp.com/)
+
 Prerequisites
 -------------
 
