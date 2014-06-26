@@ -19,6 +19,7 @@
       "git": "https://github.com/dennismonsewicz/accounts-entry"
     },
     "font-awesome": {},
-    "jquery-scrollintoview": {}
+    "jquery-scrollintoview": {},
+    "kadira": {}
   }
 }

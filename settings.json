@@ -1,7 +1,15 @@
 {
   "public": {
-    "site_contact_email": "foo@baz.com",
-    "footer_tagline": "Java is to JavaScript what Car is to Carpet",
-    "footer_city_state": "Foo, Qux"
+    "content": {
+      "site_contact_email": "foo@baz.com",
+      "footer_tagline": "Java is to JavaScript what Car is to Carpet",
+      "footer_city_state": "Foo, Qux"
+    },
+    "social": {
+      "facebook": "foo",
+      "linkedin": "foo",
+      "twitter": "foo",
+      "instagram": "foo"
+    }
   }
 }
