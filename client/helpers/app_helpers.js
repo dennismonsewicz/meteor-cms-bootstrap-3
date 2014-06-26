@@ -10,22 +10,13 @@ UI.registerHelper('tagLine', function(){
 });
 
 UI.registerHelper('footerTagLine', function(){
-  if(_.has(Meteor.settings.public, 'footer_tagline'))
-    return Meteor.settings.public.footer_tagline;
-  else
-    return "";
+  return "";
 });
 
 UI.registerHelper('siteContactEmail', function(){
-  if(_.has(Meteor.settings.public, 'site_contact_email'))
-    return Meteor.settings.public.site_contact_email;
-  else
-    return "foo@baz.com";
+  return "foo@baz.com";
 });
 
 UI.registerHelper('footerCityState', function(){
-  if(_.has(Meteor.settings.public, 'footer_city_state'))
-    return Meteor.settings.public.footer_city_state;
-  else
-    return "Foo, Qux";
+  return "Foo, Qux";
 });
